@@ -11,8 +11,8 @@
           <include name="bc"/>
           <include name="bs"/>
           <include name="ac"/>
-          <include name="bt"/>
           <include name="as"/>
+          <include name="bt"/>
           <include name="at"/>
         </methods>
       </class> <!-- vendor.AlertOnWeakPassword -->

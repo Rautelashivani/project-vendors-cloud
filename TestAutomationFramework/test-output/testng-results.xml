@@ -1,52 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Giving Alert]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-06-25T18:40:43 IST" name="Suite" finished-at="2025-06-25T18:41:02 IST" duration-ms="19241">
+  <suite started-at="2025-06-27T18:16:55 IST" name="Default suite" finished-at="2025-06-27T18:17:03 IST" duration-ms="8727">
     <groups>
-      <group name="Smoke">
-        <method signature="Mutiplefailedloginsnolockoutt.multipleFailedLoginsNoLockout()[pri:0, instance:vendor.Mutiplefailedloginsnolockoutt@15d49048]" name="multipleFailedLoginsNoLockout" class="vendor.Mutiplefailedloginsnolockoutt"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-06-25T18:40:43 IST" name="Test" finished-at="2025-06-25T18:41:02 IST" duration-ms="19241">
-      <class name="vendor.Mutiplefailedloginsnolockoutt">
-        <test-method is-config="true" signature="bs()[pri:0, instance:vendor.Mutiplefailedloginsnolockoutt@15d49048]" started-at="2025-06-25T18:40:43 IST" name="bs" finished-at="2025-06-25T18:40:43 IST" duration-ms="18" status="PASS">
+    <test started-at="2025-06-27T18:16:55 IST" name="Default test" finished-at="2025-06-27T18:17:03 IST" duration-ms="8727">
+      <class name="vendor.AlertOnWeakPassword">
+        <test-method is-config="true" signature="bs()[pri:0, instance:vendor.AlertOnWeakPassword@1224144a]" started-at="2025-06-27T18:16:55 IST" name="bs" finished-at="2025-06-27T18:16:55 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:vendor.Mutiplefailedloginsnolockoutt@15d49048]" started-at="2025-06-25T18:40:43 IST" name="bt" finished-at="2025-06-25T18:40:43 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="bt()[pri:0, instance:vendor.AlertOnWeakPassword@1224144a]" started-at="2025-06-27T18:16:55 IST" name="bt" finished-at="2025-06-27T18:16:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bt -->
-        <test-method is-config="true" signature="bc()[pri:0, instance:vendor.Mutiplefailedloginsnolockoutt@15d49048]" started-at="2025-06-25T18:40:43 IST" name="bc" finished-at="2025-06-25T18:40:45 IST" duration-ms="2149" status="PASS">
+        <test-method is-config="true" signature="bc()[pri:0, instance:vendor.AlertOnWeakPassword@1224144a]" started-at="2025-06-27T18:16:55 IST" name="bc" finished-at="2025-06-27T18:16:56 IST" duration-ms="1295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method is-config="true" signature="bm()[pri:0, instance:vendor.Mutiplefailedloginsnolockoutt@15d49048]" started-at="2025-06-25T18:40:45 IST" name="bm" finished-at="2025-06-25T18:40:49 IST" duration-ms="3506" status="PASS">
+        <test-method is-config="true" signature="bm()[pri:0, instance:vendor.AlertOnWeakPassword@1224144a]" started-at="2025-06-27T18:16:56 IST" name="bm" finished-at="2025-06-27T18:16:59 IST" duration-ms="3220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method signature="multipleFailedLoginsNoLockout()[pri:0, instance:vendor.Mutiplefailedloginsnolockoutt@15d49048]" started-at="2025-06-25T18:40:49 IST" name="multipleFailedLoginsNoLockout" finished-at="2025-06-25T18:41:02 IST" duration-ms="12974" status="PASS">
+        <test-method signature="demootest()[pri:0, instance:vendor.AlertOnWeakPassword@1224144a]" started-at="2025-06-27T18:16:59 IST" name="demootest" finished-at="2025-06-27T18:17:03 IST" duration-ms="3784" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\Fleek IT\eclipse-workspace\TestAutomationFramework\error_shots\ss.png (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Fleek IT\eclipse-workspace\TestAutomationFramework\error_shots\ss.png (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131)
+at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110)
+at vendor.AlertOnWeakPassword.demootest(AlertOnWeakPassword.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
+            <line>
+              <![CDATA[Giving Alert]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- multipleFailedLoginsNoLockout -->
-        <test-method is-config="true" signature="am()[pri:0, instance:vendor.Mutiplefailedloginsnolockoutt@15d49048]" started-at="2025-06-25T18:41:02 IST" name="am" finished-at="2025-06-25T18:41:02 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- demootest -->
+        <test-method is-config="true" signature="am()[pri:0, instance:vendor.AlertOnWeakPassword@1224144a]" started-at="2025-06-27T18:17:03 IST" name="am" finished-at="2025-06-27T18:17:03 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
-        <test-method is-config="true" signature="ac()[pri:0, instance:vendor.Mutiplefailedloginsnolockoutt@15d49048]" started-at="2025-06-25T18:41:02 IST" name="ac" finished-at="2025-06-25T18:41:02 IST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="ac()[pri:0, instance:vendor.AlertOnWeakPassword@1224144a]" started-at="2025-06-27T18:17:03 IST" name="ac" finished-at="2025-06-27T18:17:03 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ac -->
-        <test-method is-config="true" signature="at()[pri:0, instance:vendor.Mutiplefailedloginsnolockoutt@15d49048]" started-at="2025-06-25T18:41:02 IST" name="at" finished-at="2025-06-25T18:41:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="at()[pri:0, instance:vendor.AlertOnWeakPassword@1224144a]" started-at="2025-06-27T18:17:03 IST" name="at" finished-at="2025-06-27T18:17:03 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- at -->
-        <test-method is-config="true" signature="as()[pri:0, instance:vendor.Mutiplefailedloginsnolockoutt@15d49048]" started-at="2025-06-25T18:41:02 IST" name="as" finished-at="2025-06-25T18:41:02 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="as()[pri:0, instance:vendor.AlertOnWeakPassword@1224144a]" started-at="2025-06-27T18:17:03 IST" name="as" finished-at="2025-06-27T18:17:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- as -->
-      </class> <!-- vendor.Mutiplefailedloginsnolockoutt -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- vendor.AlertOnWeakPassword -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
