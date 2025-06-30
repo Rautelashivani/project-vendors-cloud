@@ -34,7 +34,7 @@ public class ListImp implements ISuiteListener, ITestListener
 		SimpleDateFormat sdf = new SimpleDateFormat("HH-mm-SS_yyyy-MM-dd");
 		String time=sdf.format(new Date());
 		ExtentSparkReporter spark = new ExtentSparkReporter(
-				"C:\\Users\\Fleek IT\\eclipse-workspace\\TestAutomationFramework\\report\\" + time +"repot"+".html");
+				"C:\\Users\\Fleek IT\\git\\repository\\TestAutomationFramework\\report\\" + time +"repot"+".html");
 		spark.config().setDocumentTitle("Vendors Cloud");
 		spark.config().setReportName("Extent Report ");
 		spark.config().setTheme(Theme.DARK);
@@ -73,12 +73,12 @@ public class ListImp implements ISuiteListener, ITestListener
 		
 		TakesScreenshot tks =(TakesScreenshot) BaseClass2.sdriver;
 		File src=tks.getScreenshotAs(OutputType.FILE);
-		File des=new File("C:\\Users\\Fleek IT\\eclipse-workspace\\TestAutomationFramework\\error_shots\\" + time +"screenshot"+".png");
+		File des=new File("C:\\Users\\Fleek IT\\git\\repository\\TestAutomationFramework\\error_shots\\" + time +"screenshot"+".png");
 		try
 		{
 			FileHandler.copy(src, des);
 			
-			test.addScreenCaptureFromPath("C:\\Users\\Fleek IT\\eclipse-workspace\\TestAutomationFramework\\error_shots\\" + time +"screenshot"+".png");
+			test.addScreenCaptureFromPath("C:\\Users\\Fleek IT\\git\\repository\\TestAutomationFramework\\error_shots\\" + time +"screenshot"+".png");
 		}
 		
 		catch(IOException e)
