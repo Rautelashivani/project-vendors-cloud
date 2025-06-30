@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="listener_Utility.ListImp"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vendor.AOWP">
+      <class name="vendor.VendorMemberDeleteIcon">
         <methods>
-          <include name="bm"/>
-          <include name="am"/>
-          <include name="Alertonweakpassword"/>
-          <include name="bc"/>
-          <include name="bs"/>
           <include name="ac"/>
           <include name="bt"/>
           <include name="as"/>
+          <include name="am"/>
+          <include name="bm"/>
+          <include name="Scriptttt"/>
+          <include name="bc"/>
+          <include name="bs"/>
           <include name="at"/>
         </methods>
-      </class> <!-- vendor.AOWP -->
+      </class> <!-- vendor.VendorMemberDeleteIcon -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

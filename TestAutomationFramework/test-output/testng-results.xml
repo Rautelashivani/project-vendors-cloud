@@ -5,51 +5,51 @@
       <![CDATA[Search bar is working]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-30T10:41:53 IST" name="Suite" finished-at="2025-06-30T10:42:04 IST" duration-ms="10960">
+  <suite started-at="2025-06-30T16:14:06 IST" name="Default suite" finished-at="2025-06-30T16:14:16 IST" duration-ms="9973">
     <groups>
     </groups>
-    <test started-at="2025-06-30T10:41:53 IST" name="Test" finished-at="2025-06-30T10:42:04 IST" duration-ms="10960">
-      <class name="vendor.VendorBenchTechStackSearchBar">
-        <test-method is-config="true" signature="bs()[pri:0, instance:vendor.VendorBenchTechStackSearchBar@69ee81fc]" started-at="2025-06-30T10:41:53 IST" name="bs" finished-at="2025-06-30T10:41:53 IST" duration-ms="14" status="PASS">
+    <test started-at="2025-06-30T16:14:06 IST" name="Default test" finished-at="2025-06-30T16:14:16 IST" duration-ms="9973">
+      <class name="vendor.VendorReqMatchingCandidatesSearchBar">
+        <test-method is-config="true" signature="bs()[pri:0, instance:vendor.VendorReqMatchingCandidatesSearchBar@69ee81fc]" started-at="2025-06-30T16:14:06 IST" name="bs" finished-at="2025-06-30T16:14:06 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:vendor.VendorBenchTechStackSearchBar@69ee81fc]" started-at="2025-06-30T10:41:53 IST" name="bt" finished-at="2025-06-30T10:41:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="bt()[pri:0, instance:vendor.VendorReqMatchingCandidatesSearchBar@69ee81fc]" started-at="2025-06-30T16:14:06 IST" name="bt" finished-at="2025-06-30T16:14:06 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bt -->
-        <test-method is-config="true" signature="bc()[pri:0, instance:vendor.VendorBenchTechStackSearchBar@69ee81fc]" started-at="2025-06-30T10:41:53 IST" name="bc" finished-at="2025-06-30T10:41:54 IST" duration-ms="1258" status="PASS">
+        <test-method is-config="true" signature="bc()[pri:0, instance:vendor.VendorReqMatchingCandidatesSearchBar@69ee81fc]" started-at="2025-06-30T16:14:06 IST" name="bc" finished-at="2025-06-30T16:14:07 IST" duration-ms="1236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method is-config="true" signature="bm()[pri:0, instance:vendor.VendorBenchTechStackSearchBar@69ee81fc]" started-at="2025-06-30T10:41:54 IST" name="bm" finished-at="2025-06-30T10:41:56 IST" duration-ms="1272" status="PASS">
+        <test-method is-config="true" signature="bm()[pri:0, instance:vendor.VendorReqMatchingCandidatesSearchBar@69ee81fc]" started-at="2025-06-30T16:14:07 IST" name="bm" finished-at="2025-06-30T16:14:09 IST" duration-ms="1550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method signature="scrippt()[pri:0, instance:vendor.VendorBenchTechStackSearchBar@69ee81fc]" started-at="2025-06-30T10:41:56 IST" name="scrippt" finished-at="2025-06-30T10:42:04 IST" duration-ms="7980" status="PASS">
+        <test-method signature="scripttt()[pri:0, instance:vendor.VendorReqMatchingCandidatesSearchBar@69ee81fc]" started-at="2025-06-30T16:14:09 IST" name="scripttt" finished-at="2025-06-30T16:14:15 IST" duration-ms="6582" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Search bar is working]]>
             </line>
           </reporter-output>
-        </test-method> <!-- scrippt -->
-        <test-method is-config="true" signature="am()[pri:0, instance:vendor.VendorBenchTechStackSearchBar@69ee81fc]" started-at="2025-06-30T10:42:04 IST" name="am" finished-at="2025-06-30T10:42:04 IST" duration-ms="158" status="PASS">
+        </test-method> <!-- scripttt -->
+        <test-method is-config="true" signature="am()[pri:0, instance:vendor.VendorReqMatchingCandidatesSearchBar@69ee81fc]" started-at="2025-06-30T16:14:15 IST" name="am" finished-at="2025-06-30T16:14:16 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
-        <test-method is-config="true" signature="ac()[pri:0, instance:vendor.VendorBenchTechStackSearchBar@69ee81fc]" started-at="2025-06-30T10:42:04 IST" name="ac" finished-at="2025-06-30T10:42:04 IST" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="ac()[pri:0, instance:vendor.VendorReqMatchingCandidatesSearchBar@69ee81fc]" started-at="2025-06-30T16:14:16 IST" name="ac" finished-at="2025-06-30T16:14:16 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ac -->
-        <test-method is-config="true" signature="at()[pri:0, instance:vendor.VendorBenchTechStackSearchBar@69ee81fc]" started-at="2025-06-30T10:42:04 IST" name="at" finished-at="2025-06-30T10:42:04 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="at()[pri:0, instance:vendor.VendorReqMatchingCandidatesSearchBar@69ee81fc]" started-at="2025-06-30T16:14:16 IST" name="at" finished-at="2025-06-30T16:14:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- at -->
-        <test-method is-config="true" signature="as()[pri:0, instance:vendor.VendorBenchTechStackSearchBar@69ee81fc]" started-at="2025-06-30T10:42:04 IST" name="as" finished-at="2025-06-30T10:42:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="as()[pri:0, instance:vendor.VendorReqMatchingCandidatesSearchBar@69ee81fc]" started-at="2025-06-30T16:14:16 IST" name="as" finished-at="2025-06-30T16:14:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- as -->
-      </class> <!-- vendor.VendorBenchTechStackSearchBar -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- vendor.VendorReqMatchingCandidatesSearchBar -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

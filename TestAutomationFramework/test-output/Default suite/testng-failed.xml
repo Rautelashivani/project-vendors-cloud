@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vendor.AlertOnWeakPassword">
+      <class name="vendor.VendorMemberDeleteIcon">
         <methods>
-          <include name="demootest"/>
-          <include name="bm"/>
+          <include name="ac"/>
+          <include name="bt"/>
+          <include name="as"/>
           <include name="am"/>
+          <include name="bm"/>
+          <include name="Scriptttt"/>
           <include name="bc"/>
           <include name="bs"/>
-          <include name="ac"/>
-          <include name="as"/>
-          <include name="bt"/>
           <include name="at"/>
         </methods>
-      </class> <!-- vendor.AlertOnWeakPassword -->
+      </class> <!-- vendor.VendorMemberDeleteIcon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

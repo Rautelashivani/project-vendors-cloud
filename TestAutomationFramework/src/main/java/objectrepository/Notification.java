@@ -15,7 +15,7 @@ public class Notification
 		PageFactory.initElements(driver, this);
 	}
 	
-	    @FindBy(xpath="(//*[name()='svg'][@class='my-auto'])[1]")
+	    @FindBy(xpath="(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1l6e05h'])[1]")
 	     private WebElement icon;
 	    
 	   
